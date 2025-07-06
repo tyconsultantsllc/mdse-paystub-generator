@@ -1,0 +1,1 @@
+D:\Thomas\App Projects\MDSE\MDSEPaystubGenerator\mdsepaystubgenerator.client\obj\Debug\mdsepaystubgenerator.client.esproj.CoreCompileInputs.cache

@@ -1,12 +1,17 @@
 {
-  "name": "mdsepaystubgenerator-client",
+  "name": "mdse-paystub-generator",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "MDSE Driver Paystub Generator",
+  "author": "Your Name",
   "scripts": {
     "dev": "vite --port 3000",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
   },
   "dependencies": {
     "react": "^18.2.0",

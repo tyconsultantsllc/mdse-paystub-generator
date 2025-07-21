@@ -5,23 +5,18 @@
     <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
     <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
     <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
-    <PackageJsonDescription Condition="$(PackageJsonDescription) == ''">MDSE Driver Paystub Generator</PackageJsonDescription>
-    <PackageJsonAuthor Condition="$(PackageJsonAuthor) == ''">Your Name</PackageJsonAuthor>
     <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite --port 3000</PackageJsonScriptsDev>
-    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">tsc &amp;&amp; vite build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
-    <PackageJsonScriptsTauri Condition="$(PackageJsonScriptsTauri) == ''">tauri</PackageJsonScriptsTauri>
-    <PackageJsonScriptsTauriDev Condition="$(PackageJsonScriptsTauriDev) == ''">tauri dev</PackageJsonScriptsTauriDev>
-    <PackageJsonScriptsTauriBuild Condition="$(PackageJsonScriptsTauriBuild) == ''">tauri build</PackageJsonScriptsTauriBuild>
+    <PackageJsonDependenciesHtml2canvas Condition="$(PackageJsonDependenciesHtml2canvas) == ''">^1.4.1</PackageJsonDependenciesHtml2canvas>
+    <PackageJsonDependenciesJspdf Condition="$(PackageJsonDependenciesJspdf) == ''">^3.0.1</PackageJsonDependenciesJspdf>
+    <PackageJsonDependenciesLucideReact Condition="$(PackageJsonDependenciesLucideReact) == ''">^0.294.0</PackageJsonDependenciesLucideReact>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.2.0</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.2.0</PackageJsonDependenciesReactDom>
-    <PackageJsonDependenciesLucideReact Condition="$(PackageJsonDependenciesLucideReact) == ''">^0.294.0</PackageJsonDependenciesLucideReact>
-    <PackageJsonDependenciesJspdf Condition="$(PackageJsonDependenciesJspdf) == ''">^2.5.1</PackageJsonDependenciesJspdf>
-    <PackageJsonDependenciesHtml2canvas Condition="$(PackageJsonDependenciesHtml2canvas) == ''">^1.4.1</PackageJsonDependenciesHtml2canvas>
     <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.2.43</PackageJsonDevdependenciesTypesReact>
     <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^18.2.17</PackageJsonDevdependenciesTypesReactDom>
     <PackageJsonDevdependenciesVitejsPluginReact Condition="$(PackageJsonDevdependenciesVitejsPluginReact) == ''">^4.2.1</PackageJsonDevdependenciesVitejsPluginReact>
     <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">^5.2.2</PackageJsonDevdependenciesTypescript>
-    <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^5.0.8</PackageJsonDevdependenciesVite>
+    <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^6.3.5</PackageJsonDevdependenciesVite>
   </PropertyGroup>
 </Project>
